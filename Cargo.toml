@@ -1,0 +1,10 @@
+[package]
+name = "grappe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+unicode-width = "0.1"
+unicode-segmentation = "1.8"
+tinyvec = { version = "1.5", features = ["rustc_1_55"] }
+# stril = { path = "../stril", version = "0.1" }
